@@ -6,9 +6,9 @@ permalink: /docs/
 
 <div class="row">
             <div class="columns large-4">
-              <a href="/img/SOTU2014.doc">
+              <button><a href="/img/SOTU2014.doc">
                     <h4> SOTU </h4>
-              </a>
+              </a></button>
             </div><!--end div class column large-4-->    
             
             <div class="columns large-4">

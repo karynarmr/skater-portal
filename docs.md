@@ -25,7 +25,7 @@ permalink: /docs/
 
 <div class="row">
     <div class="large-4 columns sotu">
-      <img src="images/cat-3.jpg">
+      <img src="">
     </div>
 
     <div class="large-4 columns opsman">
@@ -36,7 +36,7 @@ permalink: /docs/
       <img src="images/cat-3.jpg">
     </div>
 
-</div><!-- End row -->
+</div><!-- close row -->
 
 
 

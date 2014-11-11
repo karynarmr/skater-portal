@@ -7,15 +7,22 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 100px;
+    background-color: black;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
+.skaterportal {
+    float: right;
+    width: 10.75em;
+    }
+
+
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
+    font-size: 2.25em;
+    line-height: 3.5em;
+    letter-spacing: 0.063em;
     margin-bottom: 0;
     float: left;
 
@@ -27,7 +34,7 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 3.5em;
 
     .menu-icon {
         display: none;
@@ -165,11 +172,14 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-color: #807878;
 }
 
 .page-heading {
-    font-size: 20px;
     font-family: "Petit Formal Script";
+    font-size: 2.25em;
+    color: white;
+    padding-top: 30px;
 }
 
 .post-list {
@@ -214,16 +224,16 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
-
+        font-size: 2.25em;
+        font-family: "Petit Formal Script";
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 1.75em;
         }
     }
 
     h3 {
         font-size: 26px;
-
+        font-family: "Petit Formal Script";
         @include media-query($on-laptop) {
             font-size: 22px;
         }
@@ -231,9 +241,17 @@
 
     h4 {
         font-size: 20px;
-
+        font-family: "Petit Formal Script";
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+
+      h6 {
+        font-size: 0.75em;
+        font-family: "Petit Formal Script";
+        @include media-query($on-laptop) {
+            font-size: 0.75em;
         }
     }
 }

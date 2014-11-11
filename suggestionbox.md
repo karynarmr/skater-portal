@@ -5,8 +5,10 @@ permalink: /suggestionbox/
 ---
 
 
-<form>
-  <h1>to: Info@TXRD.com </h1>
+<form method="post">
+
+  <h1> Info@TXRD.com </h1>
+
 
   <div id="from">
     <label for="name">from:</label>

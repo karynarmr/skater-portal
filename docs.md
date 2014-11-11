@@ -25,15 +25,15 @@ permalink: /docs/
 
 <div class="row">
     <div class="large-4 columns sotu">
-      <img src="">
+      <img src="/images/cat-3.jpg">
     </div>
 
     <div class="large-4 columns opsman">
-      <img src="images/cat-3.jpg">
+      <img src="/images/cat-3.jpg">
     </div>
 
     <div class="large-4 columns rules2014">
-      <img src="images/cat-3.jpg">
+      <img src="/images/cat-3.jpg">
     </div>
 
 </div><!-- close row -->

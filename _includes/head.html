@@ -6,21 +6,17 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="Skater Portal" content="{{ site.description }}">
 
-    <link rel="stylesheet" href="{{ "/css/spmain.scss" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/spmain.css" | prepend: site.baseurl }}">
     
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     
-    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="{{ "/css/foundation.min.css" | prepend: site.baseurl }}">
 
-    <link rel="stylesheet" href="/css/foundation.min.css">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
 
-    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="javascript" type="javascript" href="{{ "/js/foundation.min.js" | prepend: site.baseurl }}">
 
-    <link rel="stylesheet"  href="/css/style.css">
-
-    <link rel="javascript" type="javascript" href="/js/foundation.min.js">
-
-    <link rel="javascript" type="javascript" href="/js/script.js">
+    <link rel="javascript" type="javascript" href="{{ "/js/script.js" | prepend: site.baseurl }}">
 
 
 </head>

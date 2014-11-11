@@ -1,10 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script|Oswald:400,300,700);
+
 /**
  * Site header
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 100px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -167,7 +169,7 @@
 
 .page-heading {
     font-size: 20px;
-    text-transform: uppercase;
+    font-family: "Petit Formal Script";
 }
 
 .post-list {

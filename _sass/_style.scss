@@ -29,7 +29,7 @@ html { height: 100%; }
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: $base-font-family;
     background: #fff;
     font-weight: 400;
     overflow: scroll;
@@ -74,4 +74,10 @@ a {
 	font-size: 1.250em;
 	line-height: 1.625em;
 	font-weight: 700;
+}
+
+
+.skaterportal {
+	
+
 }

@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Suggestion Box
 permalink: /suggestionbox/
 ---
 
+<h3>Send us your feelings</h3>
+
 
 <form method="post">
-
-  <h1> Info@TXRD.com </h1>
-
+  <h5> to: Info@TXRD.com </h5>
 
   <div id="from">
     <label for="name">from:</label>

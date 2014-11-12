@@ -4,7 +4,7 @@ email: karynarmr33@gmail.com
 description: "Live and Bleed TXRD"
 
 baseurl: "/skater-portal" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://karynarmr.github.io" # the base hostname & protocol for your site
 twitter_username: karynarmr
 github_username:  karynarmr	
 

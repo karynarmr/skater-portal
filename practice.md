@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Practice Credits
 permalink: /practice/
-categories: points
 ---
 
+<h3>Skate your ass off</h3>
 
 <iframe width="1000" height="800" frameborder="0" src="https://docs.google.com/spreadsheet/pub?key=0AnmAxxZvLFGddF9JdF9CekQwUXZlX2F6cERjaWFQY0E&output=html&widget=true"></iframe>
 

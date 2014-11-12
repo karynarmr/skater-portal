@@ -1,5 +1,6 @@
 ---
 layout: page
-title: Upcoming League Events
 permalink: /events/
 ---
+
+<h3> Upcoming League Events </h3>

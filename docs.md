@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Business Documents
 permalink: /docs/
 ---
+
+<h3>Know your sh*t</h3>
 
 <div class="row">
 

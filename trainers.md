@@ -1,5 +1,6 @@
 ---
 layout: page
-title: Need Help
 permalink: /trainers/
 ---
+
+<h3> Skate with the best </h3>

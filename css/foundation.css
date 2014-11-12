@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script|Oswald:400,300,700);
+
 meta.foundation-version {
   font-family: "/5.4.6/"; }
 
@@ -1082,17 +1084,19 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+
 button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Petit Formal Script";
+  font-weight: bold;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
   text-decoration: none;
   text-align: center;
+  box-shadow: 1px 1px 3px 3px #978C8C;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   display: inline-block;
@@ -1100,15 +1104,15 @@ button, .button {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-size: 1rem;
-  background-color: #008cba;
-  border-color: #007095;
-  color: white;
+  font-size: 1.25rem;
+  background-color: #440808;
+  border-color: #440808;
+  color: black;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #8F2F2F; }
   button:hover, button:focus, .button:hover, .button:focus {
-    color: white; }
+    color: black; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
@@ -1267,6 +1271,10 @@ button::-moz-focus-inner {
 @media only screen and (min-width: 40.063em) {
   button, .button {
     display: inline-block; } }
+
+
+
+
 /* Standard Forms */
 form {
   margin: 0 0 1rem; }

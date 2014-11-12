@@ -27,7 +27,6 @@ permalink: /suggestionbox/
  
  <br>
  
-  <div class="button">
     <button type="submit">Send your message</button>
-  </div>
+
 </form>

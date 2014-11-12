@@ -1085,7 +1085,7 @@ select {
     right: 91.66667%;
     left: auto; } }
 
-button, .button {
+button, .button .filter-button{
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -1105,8 +1105,8 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1.25rem;
-  background-color: #440808;
-  border-color: #440808;
+  background-color: #7C2B2B;
+  border-color: #7C2B2B;
   color: black;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -1122,27 +1122,27 @@ button, .button {
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       color: #333333; }
   button.success, .button.success {
-    background-color: #43ac6a;
-    border-color: #368a55;
+    background-color: #9F3347;
+    border-color: #9F3347;
     color: white; }
     button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-      background-color: #368a55; }
+      background-color: #9F3347; }
     button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
       color: white; }
   button.alert, .button.alert {
-    background-color: #f04124;
-    border-color: #cf2a0e;
+    background-color: #9F3347;
+    border-color: #9F3347;
     color: white; }
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
-      background-color: #cf2a0e; }
+      background-color: #9F3347; }
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
       color: white; }
   button.warning, .button.warning {
-    background-color: #f08a24;
-    border-color: #cf6e0e;
+    background-color: #9F3347;
+    border-color: #9F3347;
     color: white; }
     button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
-      background-color: #cf6e0e; }
+      background-color: #9F3347; }
     button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
       color: white; }
   button.info, .button.info {
@@ -1150,7 +1150,7 @@ button, .button {
     border-color: #61b6d9;
     color: #333333; }
     button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
-      background-color: #61b6d9; }
+      background-color: #9F3347; }
     button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
       color: white; }
   button.large, .button.large {

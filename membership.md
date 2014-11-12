@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Membership Points
 permalink: /membership/
-categories: points
 ---
+
+<h3>Do your part</h3>
 
 
 <iframe width="1000" height="800" frameborder="0" src="https://docs.google.com/spreadsheet/pub?key=0AgEq90G3cyD6dHN5YTlFZjRnb2tScHhEanVrR3RRZ3c&output=html&widget=true"></iframe>
 
 
 
-<a href="https://docs.google.com/spreadsheet/ccc?key=0AgEq90G3cyD6dHN5YTlFZjRnb2tScHhEanVrR3RRZ3c&usp=sharing"> View the full sheet online here </a>
+View the full sheet online <a href="https://docs.google.com/spreadsheet/ccc?key=0AgEq90G3cyD6dHN5YTlFZjRnb2tScHhEanVrR3RRZ3c&usp=sharing">  here </a>

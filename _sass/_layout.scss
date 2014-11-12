@@ -211,7 +211,7 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 26px;
     letter-spacing: -1px;
     line-height: 1;
     font-family: 'Petit Formal Script';
@@ -243,10 +243,14 @@
     h4 {
         font-size: 20px;
         font-family: "Petit Formal Script";
+        color: #A81111;
         @include media-query($on-laptop) {
-            font-size: 18px;
+        font-size: 18px;
+        font-family: 'Petit Formal Script'; 
+        color: #A81111;
+}
         }
-    }
+    
 
     h6 {
         font-size: 0.75em;

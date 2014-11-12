@@ -1085,7 +1085,7 @@ select {
     right: 91.66667%;
     left: auto; } }
 
-button, .button .filter-button{
+button, .button, .filter-button{
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
@@ -1263,6 +1263,16 @@ button, .button .filter-button{
         color: white; }
       button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
         background-color: #a0d3e8; }
+
+.columns, .active{
+  width: 900px;
+  height: 800px;
+  border: 1px black solid;
+} 
+
+/*.columns, .hide {
+  display: none;
+} */
 
 button::-moz-focus-inner {
   border: 0;

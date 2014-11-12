@@ -6,6 +6,15 @@
  * http://www.opensource.org/licenses/mit-license.php
 */
 
+
+$(".filter-button").on("click", function(){
+  console.log(this.id);
+  var className = "." + this.id; 
+console.log(className);
+$(className).toggle();
+.toggleClass("active")
+});
+
 (function ($, window, document, undefined) {
   'use strict';
 

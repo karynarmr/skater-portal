@@ -3,6 +3,19 @@ layout: default
 permalink: /docs/
 ---
 
+<script type="text/javascript">
+
+$(".filter-button").on("click", function(){
+  console.log(this.id);
+  var className = "." + this.id; 
+console.log(className);
+$(className).toggle();
+.toggleClass("active")
+});
+</script>
+
+
+
 <h3>Know your sh*t</h3>
 <br>
 

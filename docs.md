@@ -10,7 +10,7 @@ $(".filter-button").on("click", function(){
   var className = "." + this.id; 
 console.log(className);
 $(className).toggle();
-.toggleClass("active")
+//.toggleClass("active")
 });
 </script>
 

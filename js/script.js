@@ -1,4 +1,5 @@
-<script>
+<script language="JavaScript">
+
 $("#css3-animated-example").collapse({
 accordion: true,
 open: function() {
@@ -9,4 +10,4 @@ close: function() {
 this.removeClass("open");
 }
 });
-</script>
+

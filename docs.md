@@ -23,7 +23,7 @@ permalink: /docs/
 
 
  <div class="row gallery">
-           <div class="large-12 small-12 columns" id="sotu-document">
+           <div class="large-12 small-12 columns sotu">
                <iframe width="900" height="800" frameborder="0" src="{{ site.baseurl }}/img/SOTU2014.pdf"></iframe>
             </div>
 
@@ -33,5 +33,21 @@ permalink: /docs/
 
              <div class="large-12 small-12 columns opsman">
                <iframe width="900" height="800" frameborder="0" src="{{ site.baseurl }}/img/OpsMan.pdf"></iframe>
+             </div>
+</div> <!-- end row -->
+
+
+
+<div class="row gallery">
+           <div class="large-12 small-12 columns" id="sotu-document">
+               <a href="{{ site.baseurl }}/img/SOTU2014.pdf">
+            </div>
+
+            <div class="large-12 small-12 columns rules">
+                 <a href="{{ site.baseurl }}/img/Rules2014.pdf">
+            </div>
+
+             <div class="large-12 small-12 columns opsman">
+               <a href="{{ site.baseurl }}/img/OpsMan.pdf"></iframe>
              </div>
 </div> <!-- end row -->

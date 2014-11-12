@@ -2,139 +2,257 @@
 layout: default
 permalink: /docs/
 ---
+
+<link rel="stylesheet" href="{{ "/css/demo.css" | prepend: site.baseurl }}">
+<script src="/js/modernizr.custom.63321.js"></script>
+
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<script>document.documentElement.className = "js";</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script>document.documentElement.className = "js";</script>
 
-<link rel="javascript" type="javascript" href="{{ "/js/jquery.collapse-storage.js" | prepend: site.baseurl }}">
-<link rel="javascript" type="javascript" href="{{ "/js/jquery.collapse.js" | prepend: site.baseurl }}">
-<link rel="javascript" type="javascript" href="{{ "/js/jquery.collapse-cookie-storage.js" | prepend: site.baseurl }}">
+<link rel="javascript" type="javascript" href="{{ "/js/vendor/jquery-1.9.1.js" | prepend: site.baseurl }}">
+<link rel="javascript" type="javascript" href="{{ "/js/vendor/json2.js" | prepend: site.baseurl }}">
 
-<script type="text/js">
-$("#css3-animated-example").collapse({
-accordion: true,
-open: function() {
-this.addClass("open");
-this.css({ height: this.children().outerHeight() });},
-close: function() {
-  this.css({ height: "0px" });
-this.removeClass("open");
-}
-});
-</script>
+<link rel="javascript" type="javascript" href="{{ "/js/jquerycollapsecookiestorage.js" | prepend: site.baseurl }}">
+<link rel="javascript" type="javascript" href="{{ "/js/jquerycollapsestorage.js" | prepend: site.baseurl }}">
+<link rel="javascript" type="javascript" href="{{ "/js/jquerycollapse.js" | prepend: site.baseurl }}">
+
 </head>
+<body>
+  <h1>jQuery Collapse Demo</h1>
+  <div class="col c1">
+    <h2>Default Example</h2>
+    <div id="default-example" data-collapse>
+      <h3>Fruits</h3>
+      <div>I like fruits. This <a href="#work">link should work</a></div>
+      <h3>Info</h3>
+      <div>This is some information</div>
+    </div>
+    <h2>Accordion Example</h2>
+    <div id="accordion-example" data-collapse="accordion">
+      <h3>Accordions</h3>
+      <div>Are fun and they make pleasent noises</div>
+      <h3>Fruits</h3>
+      <div>I like fruits</div>
+      <h3>Info</h3>
+      <div>This is some information</div>
+      <h3>Yeah!!</h3>
+      <div>eh</div>
+    </div>
+    <h2>Persistence Example</h2>
+    <div id="persistence-example" data-collapse="persist">
+      <h3>These</h3>
+      <div>Well hello there</div>
+      <h3>Sections</h3>
+      <div>yabayaba</div>
+      <h3>Should be</h3>
+      <div>might be.</div>
+      <h3 class="open">Persistant!!</h3>
+      <div>eh</div>
+    </div>
+  </div>
+  <div class="col c2">
+    <!-- BEGIN Custom open and close -->
+    <h2>Custom show &amp; hide</h2>
+    <div id="custom-show-hide-example">
+      <h3>Hello</h3>
+      <div>
+        <p>Hello Sir.</p>
+        <p>I'm sliding</p>
+      </div>
+      <h3>Anarachy in the UK</h3>
+      <div>I like tea</div>
+      <h3>Indeed</h3>
+      <div>This is some information</div>
+    </div>
+    
+<script>
+      new jQueryCollapse($("#custom-show-hide-example"){
+        open: function() {
+          this.slideDown(150);
+        },
+        close: function() {
+          this.slideUp(150);
+        }
+      });
+    </script>
 
-
-<h2>Know your sh*t</h2>
-<br>
-
-<style type="text/css">
-body {
-  background: #ddd;
-  margin: 0 auto;
-  max-width: 1024px;
-  font: normal 14px/1.2 'Helvetica Neue', 'Arial'
-}
-
-.fork {
-  border:0;
-  position:absolute;
-  top:0;
-  right:0;
-}
-
-.col {
-  width: 320px;
-  float: left;
-  margin-right:32px;
-  margin-bottom: 16px;
-}
-.c3 {
-  margin-right:0;
-}
-
-h1 {
-  border-bottom: 1px solid #333;
-  font-size: 32px;
-  color: #fff;
-  padding-bottom: 12px;
-  text-shadow: 0px 0px 2px rgba(0,0,0,0.6);
-}
-
-h2 {
-  margin: 10px 0;
-  color: #000;
-  font-size: 18px;
-  text-shadow: 1px 1px 2px #fff;
-}
-
-h3 {
-  margin: 0;
-  background-color: rgb(228,10,85);
-  background-image: linear-gradient(bottom, rgb(228,10,85) 14%, rgb(255,36,111) 57%);
-  background-image: -o-linear-gradient(bottom, rgb(228,10,85) 14%, rgb(255,36,111) 57%);
-  background-image: -moz-linear-gradient(bottom, rgb(228,10,85) 14%, rgb(255,36,111) 57%);
-  background-image: -webkit-linear-gradient(bottom, rgb(228,10,85) 14%, rgb(255,36,111) 57%);
-  background-image: -ms-linear-gradient(bottom, rgb(228,10,85) 14%, rgb(255,36,111) 57%);
-}
-
-h3 a {
-  background: url("sprite.png") 15px 13px no-repeat;
-  display: block;
-  padding: 10px;
-  padding-left: 32px;
-  margin: 0;
-  color: #fff;
-  text-decoration: none;
-  font-weight: normal;
-  border-bottom: 1px solid rgba(128, 10, 85, 0.5);
-  text-shadow: 1px 1px 1px rgb(128,10,85);
-}
-h3:hover { background: rgb(228,10,85); }
-h3.open  { background: rgb(255,70,120); }
-h3.open a { background-position: 13px -25px; }
-h3 + div { padding: 10px; }
-h2 + div,
-.example {
-  background: #fff;
-  overflow: hidden;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  margin-bottom: 20px;
-}
-
-/* Pre hide sections with JavaScript on
---- */
-h3+div {
-  display: none;
-}
-</style>
-
-
-<!-- BEGIN Showing and hiding with CSS -->
-<div id="css3-animated-example">
-  <h3>Hello</h3>
-    <div>
-      <div class="content">
-          <p>This example simply sets a class attribute to the details and let's an external stylesheet toggle the collapsed state.</p>
+    <!-- END Custom open and close -->
+    <!-- BEGIN Showing and hiding with CSS -->
+    <h2>w/ CSS3 Animations</h2>
+    <div id="css3-animated-example">
+      <h3>Hello</h3>
+      <div>
+        <div class="content">
+          <p>This example simply sets a class attribute to the details and let's an
+          external stylesheet toggle the collapsed state.</p>
           <p>Hello Sir.</p>
           <p>I'm sliding</p>
         </div>
-        </div>
-
-  <h3>Friend</h3>
-    <div>
-        <div class="content">
-      <p>This example simply sets a class attribute to the details and let's an external stylesheet toggle the collapsed state.</p>
-      <p>Hello Sir.</p>
       </div>
-      </div>
-
-<h3>Foe</h3>
+      <h3>Friend</h3>
       <div>
-      <div class="content">
-      <p>This example simply sets a class attribute to the details and let's an external stylesheet toggle the collapsed state.</p>
+        <div class="content">
+          <p>This example simply sets a class attribute to the details and let's an
+          external stylesheet toggle the collapsed state.</p>
+          <p>Hello Sir.</p>
+        </div>
+      </div>
+      <h3>Foe</h3>
+      <div>
+        <div class="content">
+          <p>This example simply sets a class attribute to the details and let's an
+          external stylesheet toggle the collapsed state.</p>
+        </div>
+      </div>
     </div>
+    <script>
+      $("#css3-animated-example").collapse({
+        accordion: true,
+        open: function() {
+          this.addClass("open");
+          this.css({ height: this.children().outerHeight() });
+        },
+        close: function() {
+          this.css({ height: "0px" });
+          this.removeClass("open");
+        }
+      });
+    </script>
+    <!-- END Showing and hiding with CSS -->
+    <!-- BEGIN custom markup example -->
+    <h2>Custom markup example</h2>
+    <div id="custom-markup-example">
+      <div>
+        <h3>Hello</h3>
+        <div>
+          <div class="content">
+            <p>This example simply sets a class attribute to the details and let's an
+            external stylesheet toggle the collapsed state.</p>
+            <p>Hello Sir.</p>
+            <p>I'm sliding</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Friend</h3>
+        <div>
+          <div class="content">
+            <p>This example simply sets a class attribute to the details and let's an
+            external stylesheet toggle the collapsed state.</p>
+            <p>Hello Sir.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Foe</h3>
+        <div>
+          <div class="content">
+            <p>This example simply sets a class attribute to the details and let's an
+            external stylesheet toggle the collapsed state.</p>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+    <script>
+      $("#custom-markup-example").collapse({
+        query: "div h3"
+      });
+    </script>
+    <!-- END custom markup example -->
+    <!-- Custom click query example -->
+    <div id="custom-click-query">
+      <div class="test">
+        <a href="http://www.google.com">Google.com</a> <span class="toggle">info</span>
+      </div>
+      <div>
+        <p>Find stuff on google</p>
+      </div>
+      <div class="test">
+        <a href="http://www.twitter.com">Twitter.com</a> <span class="toggle">info</span>
+      </div>
+      <div>
+        <p>Tweet stuff on twitter</p>
+      </div>
+    </div>
+    <script>
+      $("#custom-click-query").collapse({
+        clickQuery: "span.toggle"
+      });
+    </script>
+    <!-- END click query example -->
+  </div>
+  <div class="col c3">
+    <!-- BEGIN Events -->
+    <h2>Binding & Triggering events</h2>
+    <pre id="event-log">event log</pre>
+    <div class="example" id="events-example">
+      <h3>Section 1</h3>
+      <div>
+        <p>This example simply sets a class attribute to the details and let's an
+        external stylesheet toggle the collapsed state.</p>
+        <p>Hello Sir.</p>
+        <p>I'm sliding</p>
+      </div>
+      <h3>Section 2</h3>
+      <div>
+        <p>This example simply sets a class attribute to the details and let's an
+        external stylesheet toggle the collapsed state.</p>
+        <p>Hello Sir.</p>
+      </div>
+      <h3>Section 3</h3>
+      <div>
+        <p>This example simply sets a class attribute to the details and let's an
+        external stylesheet toggle the collapsed state.</p>
+      </div>
+    </div>
+    <button id="btn-open-all">Open all</button>
+    <button id="btn-close-first">Close first</button>
+    <button id="btn-toggle-last">Toggle last</button>
+    <script>
+      var el = $("#events-example"),
+        log = $("#event-log");
 
+      el.collapse();
+      el.bind("opened", function(e, section) {
+        log.html("'" + section.$summary.text() + "' was opened");
+      })
+      .bind("closed", function(e, section) {
+        log.html("'" + section.$summary.text() + "' was closed");
+      });
+
+      $("#btn-open-all").click(function() {
+        $("#events-example").trigger("open")
+      })
+      $("#btn-close-first").click(function() {
+          console.log("hwat what");
+        $("#events-example h3 a").first().trigger("close")
+      })
+      $("#btn-toggle-last").click(function() {
+        $("#events-example h3 a").last().trigger("toggle")
+      })
+    </script>
+    <br><br>
+    <h2>Open section by default</h2>
+    <div id="open-by-default-example" data-collapse>
+      <h3 class="open">I'm open by default</h3>
+      <div>Yay</div>
+      <h3>I'm not open</h3>
+      <div>booo :(</div>
+    </div>
+    <!-- END Events -->
+    <h2>Nested markup example</h2>
+    <div data-collapse>
+      <h3><strong>Fruits</strong> and <em>Vegetables</em></h3>
+      <div>I like fruits. This <a href="#work">link should work</a></div>
+      <h3>Info</h3>
+      <div>This is some information</div>
+    </div>
+
+</div>
+</body>
+</html>

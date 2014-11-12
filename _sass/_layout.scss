@@ -261,26 +261,3 @@
     }  
 }
 
-/* CSS3 Animation example
---- */
-#css3-animated-example h3 + div {
-  height: 0px;
-  padding: 0px;
-  overflow: hidden;
-  background: #000;
-  display: block!important;
-  -webkit-transform: translateZ(0);
-  -webkit-transition: all 0.3s ease;
-  moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition:all 0.3s ease;
-  transition: all 0.3s ease;
-}
-#css3-animated-example .content {
-  padding: 10px;
-}
-
-#css3-animated-example h3.open + div {
-  height: auto;
-  background: #aaffff;
-}

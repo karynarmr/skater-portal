@@ -1,14 +1,8 @@
-<script language="JavaScript">
+$(document).ready(function(){
+	$(".filter-button").on("click", function(){
+		console.log(this.id);
+	 	$("." + this.id).toggle() 
+	});
+})
 
-$("#css3-animated-example").collapse({
-accordion: true,
-open: function() {
-this.addClass("open");
-this.css({ height: this.children().outerHeight() });},
-close: function() {
-  this.css({ height: "0px" });
-this.removeClass("open");
-}
-});
 
-</script>

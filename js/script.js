@@ -1,12 +1,12 @@
-$('#first').collapsible('accordion-open', {
-  contentOpen: 1
+<script>
+$("#css3-animated-example").collapse({
+accordion: true,
+open: function() {
+this.addClass("open");
+this.css({ height: this.children().outerHeight() });},
+close: function() {
+  this.css({ height: "0px" });
+this.removeClass("open");
+}
 });
-$('#second').collapsible('accordion', {
-  animate: false
-});
-$('#third').collapsible('accordion');
-$('#fourth').collapsible('default-open');
-$('#fifth').collapsible({
-  animate: false
-});
-$('#sixth').collapsible();
+</script>

@@ -24,6 +24,8 @@ permalink: /suggestionbox/
     <textarea id="msg" name="user_message" placeholder="Send us all your feelings"></textarea>
   </div>
  
+ <br>
+ 
   <div class="button">
     <button type="submit">Send your message</button>
   </div>

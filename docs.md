@@ -3,29 +3,10 @@ layout: default
 permalink: /docs/
 ---
 
-<link rel="stylesheet" href="{{ "/css/demo.css" | prepend: site.baseurl }}">
-<script src="/js/modernizr.custom.63321.js"></script>
+<h3>Know your sh*t</h3>
+<br>
 
-
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <script>document.documentElement.className = "js";</script>
-
-<link rel="javascript" type="javascript" href="{{ "/js/vendor/jquery-1.9.1.js" | prepend: site.baseurl }}">
-<link rel="javascript" type="javascript" href="{{ "/js/vendor/json2.js" | prepend: site.baseurl }}">
-
-<link rel="javascript" type="javascript" href="{{ "/js/jquerycollapsecookiestorage.js" | prepend: site.baseurl }}">
-<link rel="javascript" type="javascript" href="{{ "/js/jquerycollapsestorage.js" | prepend: site.baseurl }}">
-<link rel="javascript" type="javascript" href="{{ "/js/jquerycollapse.js" | prepend: site.baseurl }}">
-
-</head>
-<body>
-    <!-- BEGIN Showing and hiding with CSS -->
-    <h2>w/ CSS3 Animations</h2>
-    <div id="css3-animated-example">
+<div id="css3-animated-example">
       <h3>Hello</h3>
       <div>
         <div class="content">
@@ -51,21 +32,5 @@ permalink: /docs/
         </div>
       </div>
     </div>
-    <script>
-      $("#css3-animated-example").collapse({
-        accordion: true,
-        open: function() {
-          this.addClass("open");
-          this.css({ height: this.children().outerHeight() });
-        },
-        close: function() {
-          this.css({ height: "0px" });
-          this.removeClass("open");
-        }
-      });
-    </script>
-    <!-- END Showing and hiding with CSS -->
-   
 
-</body>
-</html>
+

@@ -22,8 +22,8 @@ permalink: /docs/
 
 
  <iframe width="1000" height="800" frameborder="0" src="{{ site.baseurl }}/img/Rules2014.pdf"></iframe>
- <iframe width="1000" height="800" frameborder="0" src="{{ site.baseurl }}/img/OpsMan.docx"></iframe>
- <iframe width="1000" height="800" frameborder="0" src="{{ site.baseurl }}/img/SOTU2014.doc"></iframe>
+ <iframe width="1000" height="800" frameborder="0" src="{{ site.baseurl }}/img/OpsMan.pdf"></iframe>
+ <iframe width="1000" height="800" frameborder="0" src="{{ site.baseurl }}/img/SOTU2014.pdf"></iframe>
 
 
 <!--

@@ -6,30 +6,10 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="Skater Portal" content="{{ site.description }}">
 
-    
-    
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     
     <link rel="stylesheet" href="{{ "/css/spmain.css" | prepend: site.baseurl }}">  
     <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
     
-    <link rel="javascript" type="javascript" href="{{ "/js/foundation.min.js" | prepend: site.baseurl }}">
-    <link rel="javascript" type="javascript" href="{{ "/js/script.js" | prepend: site.baseurl }}">
-    <link rel="javascript" type="javascript" href="{{ "/js/alertify.js" | prepend: site.baseurl }}">
-
-    <script type="text/javascript">
-      $("#css3-animated-example").collapse({
-        accordion: true,
-        open: function() {
-          this.addClass("open");
-          this.css({ height: this.children().outerHeight() });
-        },
-        close: function() {
-          this.css({ height: "0px" });
-          this.removeClass("open");
-        }
-      });
-    </script>
-
 </head>

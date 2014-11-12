@@ -6,31 +6,32 @@ permalink: /docs/
 <h3>Know your sh*t</h3>
 <br>
 
-<div id="css3-animated-example">
-      <h3>Hello</h3>
-      <div>
-        <div class="content">
-          <p>This example simply sets a class attribute to the details and let's an
-          external stylesheet toggle the collapsed state.</p>
-          <p>Hello Sir.</p>
-          <p>I'm sliding</p>
-        </div>
+<div class="row">
+
+      <div class="columns large-4 medium-4 small-12">
+         <button class="filter-button individual button active" id="sotu">SOTU</button>
+      </div>   
+      
+      <div class="columns large-4 medium-4 small-12">   
+         <button class="filter-button individual button active" id="opsman">Ops Manual</button>
+      </div>   
+       
+      <div class="columns large-4 medium-4 small-12">  
+         <button class="filter-button individual button active" id="rules">Rules 2014</button>
       </div>
-      <h3>Friend</h3>
-      <div>
-        <div class="content">
-          <p>This example simply sets a class attribute to the details and let's an
-          external stylesheet toggle the collapsed state.</p>
-          <p>Hello Sir.</p>
-        </div>
-      </div>
-      <h3>Foe</h3>
-      <div>
-        <div class="content">
-          <p>This example simply sets a class attribute to the details and let's an
-          external stylesheet toggle the collapsed state.</p>
-        </div>
-      </div>
-    </div>
+</div> <!-- end row -->  
 
 
+ <div class="row gallery">
+            <div class="large-12 small-12 columns sotu">
+               <iframe width="900" height="800" frameborder="0" src="{{ site.baseurl }}/img/SOTU2014.pdf"></iframe>
+            </div>
+
+            <div class="large-12 small-12 columns rules">
+                 <iframe width="900" height="800" frameborder="0" src="{{ site.baseurl }}/img/Rules2014.pdf"></iframe>
+            </div>
+
+             <div class="large-12 small-12 columns opsman">
+               <iframe width="900" height="800" frameborder="0" src="{{ site.baseurl }}/img/OpsMan.pdf"></iframe>
+             </div>
+</div> <!-- end row -->

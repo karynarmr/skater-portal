@@ -1264,11 +1264,9 @@ button, .button, .filter-button{
       button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
         background-color: #a0d3e8; }
 
-.columns, .active{
-  width: 900px;
-  height: 800px;
-  border: 1px black solid;
-} 
+/*.columns, .active{
+ border: 1px black solid;
+} */
 
 /*.columns, .hide {
   display: none;

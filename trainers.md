@@ -3,4 +3,4 @@ layout: page
 permalink: /trainers/
 ---
 
-<h3> Skate with the best </h3>
+<h2> Skate with the best </h2>

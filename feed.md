@@ -3,4 +3,4 @@ layout: page
 permalink: /feed/
 ---
 
-<h3>Flickr Feed</h3>
+<h2>Flickr Feed</h2>

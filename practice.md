@@ -3,9 +3,11 @@ layout: page
 permalink: /practice/
 ---
 
-<h3>Skate your ass off</h3>
+<h2>Skate your ass off</h2>
+<br>
 
 <iframe width="1000" height="800" frameborder="0" src="https://docs.google.com/spreadsheet/pub?key=0AnmAxxZvLFGddF9JdF9CekQwUXZlX2F6cERjaWFQY0E&output=html&widget=true"></iframe>
 
+<br>
 
-<a href="https://docs.google.com/spreadsheet/pub?key=0AnmAxxZvLFGddF9JdF9CekQwUXZlX2F6cERjaWFQY0E&output=html&widget=true"> View the full sheet online here </a>
+View the Google sheet online  <a href="https://docs.google.com/spreadsheet/pub?key=0AnmAxxZvLFGddF9JdF9CekQwUXZlX2F6cERjaWFQY0E&output=html&widget=true"> here </a>

@@ -3,10 +3,10 @@ layout: page
 permalink: /docs/
 ---
 
-<h3>Know your sh*t</h3>
+<h2>Know your sh*t</h2>
+<br>
 
 <div class="row">
-
   <div class="columns large-4">
      <button class="filter-button individual button active" id="sotu">SOTU</button>
   </div>
@@ -18,30 +18,12 @@ permalink: /docs/
   <div class="columns large-4">  
      <button class="filter-button individual button active" id="rules">Rules 2014</button>
   </div>
-
 </div> <!-- close row -->
 
 
-
-
-<div class="row">
-    <div class="large-4 columns sotu">
-      <img src="/images/cat-3.jpg">
-    </div>
-
-    <div class="large-4 columns opsman">
-      <img src="/images/cat-3.jpg">
-    </div>
-
-    <div class="large-4 columns rules2014">
-      <img src="/images/cat-3.jpg">
-    </div>
-
-</div><!-- close row -->
-
-
-
-
+ <iframe width="1000" height="800" frameborder="0" src="{{ site.baseurl }}/img/Rules2014.pdf"></iframe>
+ <iframe width="1000" height="800" frameborder="0" src="{{ site.baseurl }}/img/OpsMan.docx"></iframe>
+ <iframe width="1000" height="800" frameborder="0" src="{{ site.baseurl }}/img/SOTU2014.doc"></iframe>
 
 
 <!--

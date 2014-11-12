@@ -3,7 +3,7 @@ layout: page
 permalink: /suggestionbox/
 ---
 
-<h3>Send us your feelings</h3>
+<h2>Send us your feelings</h2>
 
 
 <form method="post">

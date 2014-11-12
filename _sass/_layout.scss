@@ -226,37 +226,38 @@
 
     h2 {
         font-size: 2.25em;
-        font-family: "Petit Formal Script";
+        font-family: "Oswald";
         @include media-query($on-laptop) {
-            font-size: 1.75em;
+        font-size: 1.75em;
+        color: #440808;}
         }
-    }
+
 
     h3 {
-        font-size: 26px;
-        font-family: "Petit Formal Script";
+        font-size: 1.625em;
+        font-family: "Oswald";
         @include media-query($on-laptop) {
-            font-size: 22px;
-        }
+        font-size: 1.375em;
+        color: #440808;}
     }
 
     h4 {
-        font-size: 20px;
-        font-family: "Petit Formal Script";
-        color: #A81111;
+        font-size: 1.250em;
+        font-family: "Oswald";
+        color: #440808;
         @include media-query($on-laptop) {
-        font-size: 18px;
-        font-family: 'Petit Formal Script'; 
-        color: #A81111;
-}
+        font-size: 1.125em;
+        font-family: "Oswald";
+        color: #440808;}
         }
     
 
     h6 {
-        font-size: 0.75em;
+        font-size: 0.875em;
         font-family: "Petit Formal Script";
         @include media-query($on-laptop) {
-            font-size: 0.75em;
-        }
+        font-size: 0.75em;
+        color: #440808;}
     }  
 }
+
